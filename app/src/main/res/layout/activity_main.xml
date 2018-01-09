@@ -5,6 +5,7 @@
 	android:id="@+id/drawer_layout"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
+	android:background="@color/color1"
 	android:fitsSystemWindows="true"
 	tools:openDrawer="start">
 
@@ -13,12 +14,19 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" />
 
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/chariot"
+		android:alpha="0.25"/>
+
 	<android.support.design.widget.NavigationView
 		android:id="@+id/nav_view"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent"
 		android:layout_gravity="start"
 		android:fitsSystemWindows="true"
+		android:background="@color/color1"
 		app:headerLayout="@layout/nav_header_index"
 		app:menu="@menu/activity_index_drawer" />
 
