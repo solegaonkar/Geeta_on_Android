@@ -9,10 +9,11 @@
 	tools:showIn="@layout/activity_geeta">
 
 	<TextView
+		android:id="@+id/textView"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_margin="@dimen/text_margin"
-		android:text="@string/large_text"
+		android:text="@string/geeta_02"
 		android:textSize="@dimen/font_size"
 		android:gravity="center_horizontal"/>
 
