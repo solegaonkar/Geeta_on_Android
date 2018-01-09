@@ -5,16 +5,17 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	app:layout_behavior="@string/appbar_scrolling_view_behavior"
-	tools:context="com.github.solegaonkar.geeta.Geeta"
-	tools:showIn="@layout/activity_geeta">
+	tools:context="com.github.solegaonkar.geeta.IndexActivity"
+	tools:showIn="@layout/content_index">
 
 	<TextView
 		android:id="@+id/textView"
-		android:layout_width="wrap_content"
+		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_margin="@dimen/text_margin"
 		android:text="@string/geeta_02"
 		android:textSize="@dimen/font_size"
-		android:gravity="center_horizontal"/>
+		android:gravity="center_horizontal"
+		/>
 
 </android.support.v4.widget.NestedScrollView>

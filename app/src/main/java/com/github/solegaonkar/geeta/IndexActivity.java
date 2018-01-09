@@ -105,6 +105,7 @@ public class IndexActivity extends AppCompatActivity
 	public boolean onNavigationItemSelected(MenuItem item) {
 		TextView textView = findViewById(R.id.textView);
 		textView.setText(idMap.get(item.getItemId()));
+		textView.scrollTo(0,0);
 
 		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawer.closeDrawer(GravityCompat.START);
